@@ -82,7 +82,7 @@ const Home: NextPage = () => {
               </div>
               <div className={styles.text}>
                   <p>
-                    Hi, I'm Leng Fong. I was born in Kelantan in the year of 2002. I'm currently in my final year at Sunway University, 
+                    Hi, I am Leng Fong. I was born in Kelantan in the year of 2002. I am currently in my final year at Sunway University, 
                   majoring in Information Technology(Computer Networking and Security).</p>
                 </div>
             </div>
