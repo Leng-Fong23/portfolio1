@@ -58,7 +58,7 @@ const Home: NextPage = () => {
         <ul style={{ display: 'flex', listStyle: 'none', padding: 0 }}>
           {navItems.map((item, index) => (
             <li key={index} className="nav-item" style={{ marginRight: '20px' }}>
-              <a onClick={() => handleNavClick(item.link || '')}>{item.title}</a>
+              <a onClick={() => handleNavClick(item.link || '')}>{item.title.replace("'", "&apos;")}</a>
             </li>
           ))}
         </ul>
@@ -68,7 +68,7 @@ const Home: NextPage = () => {
     
           <div className={styles.gradient}>
             <div className={styles.img}>
-            <img src="/LF.png" alt="lengfong" width="500" height='500' className={styles.img}/>
+            <Image src="/LF.png" alt="lengfong" width="500" height='500' className={styles.img}/>
           </div>
             </div>
 
@@ -78,7 +78,7 @@ const Home: NextPage = () => {
         </div>
           <div className={styles.content}>
               <div className={styles.imga}>
-                  <img src="/Image.jpeg" alt="lengfong" width="200" height='100' className={styles.img}/> <br />
+                  <Image src="/Image.jpeg" alt="lengfong" width="200" height='100' className={styles.img}/> <br />
               </div>
               <div className={styles.text}>
                   <p>
