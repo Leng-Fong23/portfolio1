@@ -16,7 +16,6 @@ import SentimentVerySatisfiedIcon from '@mui/icons-material/SentimentVerySatisfi
 import Box from '@mui/material/Box';
 import Stack from "@mui/material/Stack";
 import Button from '@mui/material/Button';
-import IconContainer from '@mui/icons-material';
 import { Menu, Transition } from '@headlessui/react';
 import { Fragment } from 'react'
 import classNames from 'classnames';
@@ -139,7 +138,7 @@ const FeedbackPage = () => {
                 id="combo-box-demo"
                 options={top100Films}
                 value={selectedGender}
-    
+                
                 renderInput={(params) => <TextField {...params} label="Gender" />}
             />
             </div>
@@ -153,6 +152,7 @@ const FeedbackPage = () => {
                 name="highlight-selected-only"
                 defaultValue={5}
                 size="large"
+                IconContainerComponent={IconContainer}
                 getLabelText={(value: number) => customIcons[value].label}
                 highlightSelectedOnly
             />

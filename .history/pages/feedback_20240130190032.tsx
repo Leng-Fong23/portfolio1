@@ -139,7 +139,7 @@ const FeedbackPage = () => {
                 id="combo-box-demo"
                 options={top100Films}
                 value={selectedGender}
-    
+                onChange={(event, newValue) => setSelectedGender(newValue)}
                 renderInput={(params) => <TextField {...params} label="Gender" />}
             />
             </div>
