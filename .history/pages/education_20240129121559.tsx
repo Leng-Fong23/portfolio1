@@ -1,0 +1,30 @@
+import React from 'react';
+import CircularProgress from '@mui/material/CircularProgress';
+
+const CircularProgressBar = ({ percentage }) => {
+  return (
+    <div style={{ textAlign: 'center' }}>
+      <CircularProgress
+        variant="determinate"
+        value={percentage}
+        size={100}
+        thickness={5}
+        sx={{
+          '& circle': {
+            strokeLinecap: 'round',
+          },
+          '& text': {
+            fill: '#000000', // Change the text color
+            fontSize: '16px',
+            fontWeight: 'bold',
+          },
+        }}
+      />
+      <div style={{ marginTop: 10, fontSize: 16, fontWeight: 'bold', color: '#000000' }}>
+        {percentage}%
+      </div>
+    </div>
+  );
+};
+
+export default CircularProgressBar;
