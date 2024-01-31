@@ -841,6 +841,7 @@
 
 
 .flipcardinner {
+
   transition: transform 1.5s;
   transform-style: preserve-3d;
   
@@ -864,10 +865,12 @@
 }
 
 .flipcardfront {
+  
   color: black;
 }
 
 .flipcardback {
+ 
   color: white;
   transform: rotateY(180deg);
 }
