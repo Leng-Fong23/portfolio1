@@ -716,7 +716,6 @@ const Home: React.FC = () => {
                 <div className="inline-block bg-beb3e5 rounded-full font-[Georgia] text-[1.5rem] font-bold pb-3 px-2">
                   Skill
                 </div>
-                <div className= 'px-2'>
                 <div className="text-black font-[Georgia] font-bold p-2 text-left text-sm md:text-base lg:text-lg xl:text-[1 rem]">
                   Oses
                 </div>
@@ -760,8 +759,6 @@ const Home: React.FC = () => {
                     60%
                   </span>
                 </div>
-                </div>
-              
               </div>
           </div>
         </div>

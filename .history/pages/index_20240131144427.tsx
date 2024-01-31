@@ -696,7 +696,7 @@ const Home: React.FC = () => {
     <div className="flex-1 text-center sm:text-justify lg:text-justify lg:text-left  sm:p-4 lg:p-4 lg:pl-8 lg:pr-8 pt-3 sm:pt-4 lg:pt-4 font-[georgia] text-1.5rem text-black items-center">
   <div className="inline-block bg-beb3e5 rounded-full p-4 mt-4 font-[Georgia] text-[2.5rem] font-bold">About Me</div>
   <div className="px-6 lg:mx-40">
-    <div className=" bg-cover bg-center w-full rounded-lg" style={{ backgroundImage: "url('/back3.png')" }}>
+    <div className=" bg-cover bg-center w-full rounded-lg" style={{ backgroundImage: "url('/back2.png')" }}>
       <div className="lg:flex">
         <div className="w-full lg:w-1/3">
           <div className="pt-10">
@@ -704,19 +704,18 @@ const Home: React.FC = () => {
             <br />
           </div>
         </div>
-        <div className="w-full lg:w-1/3 pt-20 px-2 font-[Georgia] font-bold">
+        <div className="w-full lg:w-1/4 pt-10 font-[Georgia] font-bold">
           <div className="text-black text-left text-sm md:text-base lg:text-lg xl:text-xl">
             Hi, <a className="underline decoration-sky-500/30">I am Leng Fong.</a> I was born in Kelantan in the year of 2002. I am currently in my final year at Sunway University, majoring in <a className="underline decoration-sky-500/30">Information Technology (Computer Networking and Security).</a>
           </div>
         </div>
-        <div className="w-full lg:w-1/5">
-          <div className="lg:w-1/3 mx-auto text-center align-right lg:pl-2 flex flex-col items-right justify-right py-2">
+        <div className="w-full lg:w-1/4">
+          <div className="lg:w-1/3 ml-20% pl-20% text-center align-right lg:pl-2 flex flex-col items-right justify-right py-2">
           <div>
                 {/* Skill Section */}
-                <div className="inline-block bg-beb3e5 rounded-full font-[Georgia] text-[1.5rem] font-bold pb-3 px-2">
+                <div className="inline-block bg-beb3e5 rounded-full font-[Georgia] text-[1.5rem] font-bold pb-3">
                   Skill
                 </div>
-                <div className= 'px-2'>
                 <div className="text-black font-[Georgia] font-bold p-2 text-left text-sm md:text-base lg:text-lg xl:text-[1 rem]">
                   Oses
                 </div>
@@ -760,8 +759,6 @@ const Home: React.FC = () => {
                     60%
                   </span>
                 </div>
-                </div>
-              
               </div>
           </div>
         </div>

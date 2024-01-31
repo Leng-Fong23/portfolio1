@@ -704,7 +704,7 @@ const Home: React.FC = () => {
             <br />
           </div>
         </div>
-        <div className="w-full lg:w-1/3 pt-20 px-2 font-[Georgia] font-bold">
+        <div className="w-full lg:w-1/4 pt-10 font-[Georgia] font-bold">
           <div className="text-black text-left text-sm md:text-base lg:text-lg xl:text-xl">
             Hi, <a className="underline decoration-sky-500/30">I am Leng Fong.</a> I was born in Kelantan in the year of 2002. I am currently in my final year at Sunway University, majoring in <a className="underline decoration-sky-500/30">Information Technology (Computer Networking and Security).</a>
           </div>
@@ -713,10 +713,9 @@ const Home: React.FC = () => {
           <div className="lg:w-1/3 mx-auto text-center align-right lg:pl-2 flex flex-col items-right justify-right py-2">
           <div>
                 {/* Skill Section */}
-                <div className="inline-block bg-beb3e5 rounded-full font-[Georgia] text-[1.5rem] font-bold pb-3 px-2">
+                <div className="inline-block bg-beb3e5 rounded-full font-[Georgia] text-[1.5rem] font-bold pb-3">
                   Skill
                 </div>
-                <div className= 'px-2'>
                 <div className="text-black font-[Georgia] font-bold p-2 text-left text-sm md:text-base lg:text-lg xl:text-[1 rem]">
                   Oses
                 </div>
@@ -760,8 +759,6 @@ const Home: React.FC = () => {
                     60%
                   </span>
                 </div>
-                </div>
-              
               </div>
           </div>
         </div>

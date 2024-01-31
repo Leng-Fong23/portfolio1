@@ -716,11 +716,10 @@ const Home: React.FC = () => {
                 <div className="inline-block bg-beb3e5 rounded-full font-[Georgia] text-[1.5rem] font-bold pb-3 px-2">
                   Skill
                 </div>
-                <div className= 'px-2'>
                 <div className="text-black font-[Georgia] font-bold p-2 text-left text-sm md:text-base lg:text-lg xl:text-[1 rem]">
                   Oses
                 </div>
-                <div className="relative  font-[Georgia] font-bold w-full md:w-48 lg:w-56 h-4 bg-gray-300 rounded-full overflow-hidden">
+                <div className="relative  font-[Georgia] font-bold w-full md:w-48 lg:w-56 h-4 bg-gray-300 rounded-full overflow-hidden px-2">
                   <div className="h-full bg-[#3A6AF2]" style={{ width: '80%' }}></div>
                   <span className="absolute inset-0 flex items-center text-[1rem] justify-center text-white font-bold">
                     80%
@@ -760,8 +759,6 @@ const Home: React.FC = () => {
                     60%
                   </span>
                 </div>
-                </div>
-              
               </div>
           </div>
         </div>
