@@ -80,14 +80,14 @@ const SingleTabComponent: React.FC = () => {
       </button>
     </div>
   
-    <div>
+    <div className={styles.contentc}>
       {activeTab === 1 && (
         <div>
         <div className="inline-block bg-beb3e5 rounded-full p-4 mt-4 font-[Georgia] text-[2.5rem] font-bold pl-10">Achievement</div>
         <div className="grid place-items-center">
 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
 
-<div className="rounded-lg w-80 sm:w-48 md:w-56 lg:w-64 xl:w-64 h-80 sm:h-48 md:h-80 lg:h-64 xl:h-64 bg-[#3A6AF2] flex flex-col items-center justify-center text-white p-2 transition-transform transform-gpu hover:scale-105 shadow-lg">
+<div className="p-2 rounded-lg w-80 sm:w-48 md:w-56 lg:w-64 xl:w-64 h-80 sm:h-48 md:h-80 lg:h-64 xl:h-64 bg-[#3A6AF2] flex flex-col items-center justify-center text-white p-2 transition-transform transform-gpu hover:scale-105 shadow-lg">
 <div className="m-1">
     <Image src="/teamwork.png" alt="email" width="50" height="30" />
   </div>
