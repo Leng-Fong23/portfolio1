@@ -628,7 +628,7 @@ const Home: React.FC = () => {
     { title: 'Home', link: '#home' },
     { title: 'Achivement', link: '#achievment' },
     { title: 'Hobby', link: '#hobby' },
-    { title: 'More', link: '#contact' },
+    { title: ' More', link: '#contact' },
   ];
   return (
           <div className="  mx-auto">

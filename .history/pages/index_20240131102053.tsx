@@ -628,7 +628,7 @@ const Home: React.FC = () => {
     { title: 'Home', link: '#home' },
     { title: 'Achivement', link: '#achievment' },
     { title: 'Hobby', link: '#hobby' },
-    { title: 'More', link: '#contact' },
+    { title: 'Know More', link: '#contact' },
   ];
   return (
           <div className="  mx-auto">
@@ -652,7 +652,7 @@ const Home: React.FC = () => {
                         ? styles.skillText
                         : item.title === 'Hobby'
                         ? styles.achivementText
-                        : item.title === 'More'
+                        : item.title === 'Know More'
                         ? styles.contactText
                         : ''
                     }
