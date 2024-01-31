@@ -51,8 +51,8 @@ const SingleTabComponent: React.FC = () => {
   
 
   return (
-    <div className="container mx-auto mt-8 p-4 font-[Georgia]">
-    <div className="flex space-x-4 justify-center">
+    <div className="container mx-auto mt-8 p-4 font-[Georgia] border-2 border-red-">
+    <div className="flex space-x-4">
       <button
         className={`px-4 py-2 rounded-t-lg  ${
           activeTab === 1 ? 'bg-[#3A6AF2] text-white border-[#243c5a]' : 'bg-[#3A6AF2]'

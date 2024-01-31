@@ -51,7 +51,7 @@ const SingleTabComponent: React.FC = () => {
   
 
   return (
-    <div className="container mx-auto mt-8 p-4 font-[Georgia]">
+    <div className="container mx-auto mt-8 p-4 font-[Georgia] border-2 border-red-">
     <div className="flex space-x-4 justify-center">
       <button
         className={`px-4 py-2 rounded-t-lg  ${
