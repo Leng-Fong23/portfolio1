@@ -80,7 +80,7 @@ const SingleTabComponent: React.FC = () => {
       </button>
     </div>
   
-    <div className={styles.contentc}>
+    <div className={styles.contenta}>
       {activeTab === 1 && (
         <div>
         <div className="inline-block bg-beb3e5 rounded-full p-4 mt-4 font-[Georgia] text-[2.5rem] font-bold pl-10">Achievement</div>

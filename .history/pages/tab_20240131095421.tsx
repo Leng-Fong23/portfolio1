@@ -8,7 +8,6 @@ import Stack from "@mui/joy/Stack";
 import Typography from "@mui/joy/Typography";
 import CircularProgress from "@mui/joy/CircularProgress";
 import { useCountUp } from "use-count-up";
-import styles from '../styles/Home.module.css'
 
 const SingleTabComponent: React.FC = () => {
   const [activeTab, setActiveTab] = useState<number>(1);
@@ -53,7 +52,7 @@ const SingleTabComponent: React.FC = () => {
 
   return (
     <div className="container mx-auto mt-8 p-4 font-[Georgia] border-2 border-red-">
-    <div className="flex space-x-4 justify-center align-center bg-grey">
+    <div className="flex space-x-4 justify-center align-center border-2">
       <button
         className={`px-4 py-2 rounded-t-lg  ${
           activeTab === 1 ? 'bg-[#3A6AF2] text-white border-[#243c5a]' : 'bg-[#3A6AF2]'
@@ -80,7 +79,7 @@ const SingleTabComponent: React.FC = () => {
       </button>
     </div>
   
-    <div className={styles.contentc}>
+    <div className="mt-4">
       {activeTab === 1 && (
         <div>
         <div className="inline-block bg-beb3e5 rounded-full p-4 mt-4 font-[Georgia] text-[2.5rem] font-bold pl-10">Achievement</div>

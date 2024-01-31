@@ -147,14 +147,15 @@
 }
 
 .contentc {
-  padding: 20px ;
-  background-color: #dbdce1;
+  padding: 20px 100px;
+  background-color: #f1efc4;
   position: relative;
   border-radius: 40px;
+  margin-top: 20px;
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 90%;
   align-items: center;
 }
 
