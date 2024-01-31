@@ -696,7 +696,82 @@ const Home: React.FC = () => {
     
       </div>
 
-     
+      <div className="flex-1 text-center sm:text-justify lg:text-justify lg:text-left p-2 sm:p-4 lg:p-4 lg:pl-8 lg:pr-8 pt-3 sm:pt-4 lg:pt-4 font-[georgia] text-1.5rem text-black items-center">
+      <div className=" rounded-full p-4 mt-4 font-[Georgia]  text-[2.5rem] font-bold">About Me</div>
+      <div className="px-6 lg:mx-20">
+      <table className= "p-4 text-left font-yummy-dinner text-2xl bg-cover bg-center w-full rounded-lg " style={{ backgroundImage: "url('/back2.png')" }}>
+          <thead>
+            <tr>
+              <th className="w-1/4">
+                <div className="customtableth">
+                  <Image src="/lf (2).png" alt="lengfong" width={600} height={500} className="float-left " />
+                  <br />
+                </div>
+              </th>
+              <th className="w-1/5 p-0">
+              <div className=" text-black text-left text-sm md:text-base lg:text-lg xl:text-xl">
+                Hi, <a className = "underline decoration-sky-500/30">I am Leng Fong.</a> I was born in Kelantan in the year of 2002. I am currently in my final year at Sunway University, majoring in  <a className = "underline decoration-sky-500/30">Information Technology (Computer Networking and Security).</a>
+              </div>
+              </th>
+              <th className="w-1/3">
+                            <div className="lg:w-1/3 mx-auto text-center align-center lg:pl-2  flex flex-col items-center justify-center py-2">
+                {/* Skill Section */}
+                <div className=" rounded-full font-[Georgia] text-[1.5rem] font-bold pb-3">
+                  Skill
+                </div>
+                <div className="text-black p-2 text-left text-sm md:text-base lg:text-lg xl:tex-[0.9rem]">
+                  Oses
+                </div>
+                <div className="relative w-full md:w-48 lg:w-56 h-4 bg-gray-300 rounded-full overflow-hidden">
+                  <div className="h-full bg-[#3A6AF2]" style={{ width: '80%' }}></div>
+                  <span className="absolute inset-0 flex items-center text-[1rem] justify-center text-white font-bold">
+                    80%
+                  </span>
+                </div>
+
+                {/* Repeat the following blocks for other sections */}
+                {/* Java Section */}
+                <div className="text-black p-2 text-left text-sm md:text-base lg:text-lg xl:tex-[0.9rem]">
+                  Java
+                </div>
+                <div className="relative w-full md:w-48 lg:w-56 h-4 bg-gray-300 rounded-full overflow-hidden">
+                  <div className="h-full bg-[#F27999]" style={{ width: '40%' }}></div>
+                  <span className="absolute inset-0 flex items-center text-[1rem] justify-center text-white font-bold">
+                    40%
+                  </span>
+                </div>
+
+                {/* Python Section */}
+                <div className="text-black p-2 text-left text-sm md:text-base lg:text-lg xl:tex-[0.9rem]">
+                  Python
+                </div>
+                <div className="relative w-full md:w-48 lg:w-56 h-4 bg-gray-300 rounded-full overflow-hidden">
+                  <div className="h-full bg-[#30D9A9]" style={{ width: '30%' }}></div>
+                  <span className="absolute inset-0 flex items-center text-[1rem] justify-center text-white font-bold">
+                    30%
+                  </span>
+                </div>
+
+                {/* Traffic Analysis Section */}
+                <div className="text-black p-2 text-left text-sm md:text-base lg:text-lg xl:tex-[0.9rem]">
+                  Traffic Analysis
+                </div>
+                <div className="relative w-full md:w-48 lg:w-56 h-4 bg-gray-300 rounded-full overflow-hidden">
+                  <div className="h-full bg-[#FFBE25]" style={{ width: '60%' }}></div>
+                  <span className="absolute inset-0 flex items-center text-[1rem] justify-center text-white font-bold">
+                    60%
+                  </span>
+                </div>
+              </div>
+
+              </th>
+            </tr>
+          </thead>
+        </table>
+      </div>
+      
+      
+    </div>
 
     <div className="flex-1 text-center sm:text-justify lg:text-justify lg:text-left p-2 sm:p-4 lg:p-4 lg:pl-8 lg:pr-8 pt-3 sm:pt-4 lg:pt-4 font-[georgia] text-1.5rem text-black items-center">
   <div className="inline-block bg-beb3e5 rounded-full p-4 mt-4 font-[Georgia] text-[2.5rem] font-bold">About Me</div>
@@ -721,10 +796,10 @@ const Home: React.FC = () => {
                 <div className="inline-block bg-beb3e5 rounded-full font-[Georgia] text-[1.5rem] font-bold pb-3">
                   Skill
                 </div>
-                <div className="text-black font-[Georgia] font-bold p-2 text-left text-sm md:text-base lg:text-lg xl:text-[1 rem]">
+                <div className="text-black p-2 text-left text-sm md:text-base lg:text-lg xl:tex-[0.9rem]">
                   Oses
                 </div>
-                <div className="relative  font-[Georgia] font-bold w-full md:w-48 lg:w-56 h-4 bg-gray-300 rounded-full overflow-hidden">
+                <div className="relative w-full md:w-48 lg:w-56 h-4 bg-gray-300 rounded-full overflow-hidden">
                   <div className="h-full bg-[#3A6AF2]" style={{ width: '80%' }}></div>
                   <span className="absolute inset-0 flex items-center text-[1rem] justify-center text-white font-bold">
                     80%
@@ -733,10 +808,10 @@ const Home: React.FC = () => {
 
                 {/* Repeat the following blocks for other sections */}
                 {/* Java Section */}
-                <div className="text-black font-[Georgia] font-bold p-2 text-left text-sm md:text-base lg:text-lg xl:text-[1 rem]">
+                <div className="text-black p-2 text-left text-sm md:text-base lg:text-lg xl:tex-[0.9rem]">
                   Java
                 </div>
-                <div className="relative font-[Georgia] font-bold w-full md:w-48 lg:w-56 h-4 bg-gray-300 rounded-full overflow-hidden">
+                <div className="relative w-full md:w-48 lg:w-56 h-4 bg-gray-300 rounded-full overflow-hidden">
                   <div className="h-full bg-[#F27999]" style={{ width: '40%' }}></div>
                   <span className="absolute inset-0 flex items-center text-[1rem] justify-center text-white font-bold">
                     40%
@@ -744,7 +819,7 @@ const Home: React.FC = () => {
                 </div>
 
                 {/* Python Section */}
-                <div className="text-black font-[Georgia] font-bold p-2 text-left text-sm md:text-base lg:text-lg xl:text-[1 rem]">
+                <div className="text-black p-2 text-left text-sm md:text-base lg:text-lg xl:tex-[0.9rem]">
                   Python
                 </div>
                 <div className="relative w-full md:w-48 lg:w-56 h-4 bg-gray-300 rounded-full overflow-hidden">
@@ -755,8 +830,8 @@ const Home: React.FC = () => {
                 </div>
 
                 {/* Traffic Analysis Section */}
-                <div className="text-black font-[Georgia] font-bold p-2 text-left text-sm md:text-base lg:text-lg xl:text-[1 rem]">
-                  TrafficAnalysis
+                <div className="text-black p-2 text-left text-sm md:text-base lg:text-lg xl:tex-[0.9rem]">
+                  Traffic Analysis
                 </div>
                 <div className="relative w-full md:w-48 lg:w-56 h-4 bg-gray-300 rounded-full overflow-hidden">
                   <div className="h-full bg-[#FFBE25]" style={{ width: '60%' }}></div>
