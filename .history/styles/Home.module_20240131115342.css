@@ -832,14 +832,6 @@
   padding-left: 8%;
 }
 
-@media screen and (max-width: 767px) {
-  /* Change the height to 380px on smaller screens */
-  .flipcard {
-    height: 380px;
-  }
-}
-
-
 .flipcardinner {
 
   transition: transform 1.5s;

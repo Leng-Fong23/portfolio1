@@ -698,7 +698,7 @@ const Home: React.FC = () => {
 
       <div className="flex-1 text-center sm:text-justify lg:text-justify lg:text-left p-2 sm:p-4 lg:p-4 lg:pl-8 lg:pr-8 pt-3 sm:pt-4 lg:pt-4 font-[georgia] text-1.5rem text-black items-center">
       <div className="inline-block bg-beb3e5 rounded-full p-4 mt-4 font-[Georgia]  text-[2.5rem] font-bold">About Me</div>
-        <table className= "p-4 text-left font-yummy-dinner text-2xl bg-cover bg-center w-full rounded-lg" style={{ backgroundImage: "url('/back2.png')" }}>
+        <table className= "p-4 m-4 text-left font-yummy-dinner text-2xl bg-cover bg-center w-full rounded-lg" style={{ backgroundImage: "url('/back2.png')" }}>
           <thead>
             <tr>
               <th className="w-1/3">
@@ -855,7 +855,7 @@ const Home: React.FC = () => {
                <div className={`${styles.flipcardback} items-center justify-center`}>
                   <div className="rounded-lg w-80 sm:w-48 md:w-56 lg:w-64 xl:w-64 h-80 sm:h-48 md:h-80 lg:h-64 xl:h-64 bg-[#3A6AF2] flex flex-col items-center justify-center text-white p-2 transition-transform transform-gpu hover:scale-105 shadow-lg relative">
                     <iframe
-                      src="https://www.youtube.com/embed/PiyO3hf3IXg?si=jAvB_4ynQJc5xxQ5"
+                      src="https://www.youtube.com/embed/gXgDaSb3jJA?si=VJNBdrZuv-Ikgzae"
                       title="YouTube video player"
 
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

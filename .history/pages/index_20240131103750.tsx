@@ -693,108 +693,128 @@ const Home: React.FC = () => {
 
 
 
-    
       </div>
 
-      <div className="flex-1 text-center sm:text-justify lg:text-justify lg:text-left p-2 sm:p-4 lg:p-4 lg:pl-8 lg:pr-8 pt-3 sm:pt-4 lg:pt-4 font-[georgia] text-1.5rem text-black items-center">
-      <div className="inline-block bg-beb3e5 rounded-full p-4 mt-4 font-[Georgia]  text-[2.5rem] font-bold">About Me</div>
-        <table className= "p-4 text-left font-yummy-dinner text-2xl bg-cover bg-center w-full rounded-lg" style={{ backgroundImage: "url('/back2.png')" }}>
-          <thead>
-            <tr>
-              <th className="w-1/3">
-                <div className="customtableth">
-                  <Image src="/lf (2).png" alt="lengfong" width={600} height={500} className="float-left p-2" />
-                  <br />
+      <div className="flex-1 text-center sm:text-left lg:text-left p-2 sm:p-4 lg:p-4 lg:pl-8 lg:pr-8 pt-3 sm:pt-4 lg:pt-4 font-[georgia] text-1.5rem text-black items-center">
+        <div className="flex flex-col lg:flex-row items-center justify-center">
+          {/* Profile Image */}
+          <div className="w-full sm:w-1/2 lg:w-1/3">
+            <div className="customtableth">
+              <Image src="/profile.png" alt="lengfong" width={300} height={200} className="float-right px-2 m-10" />
+            </div>
+          </div>
+
+          {/* Container */}
+          <div className="lg:w-2/3 lg:p-10">
+            <div className="rounded-full p-4 mt-4 text-left font-[Georgia] text-[2.5rem] font-bold">About Me</div>
+            <div className="flex flex-col lg:flex-row lg:p-4 bg-[#EEEDEB] rounded-lg m-10 p-10">
+              {/* Left side */}
+              <div className="lg:w-2/3 lg:p-10">
+                <div className="text-black text-left text-sm md:text-base lg:text-lg xl:text-xl">
+                  Hi, <a className="underline decoration-sky-500/30">I am Leng Fong.</a> I was born in Kelantan in the year of 2002. I am currently in my final year at Sunway University, majoring in <a className="underline decoration-sky-500/30">Information Technology (Computer Networking and Security).</a>
                 </div>
-              </th>
-              <th className="w-1/5 p-0">
-              <div className=" text-black text-left text-sm md:text-base lg:text-lg xl:text-xl">
-                Hi, <a className = "underline decoration-sky-500/30">I am Leng Fong.</a> I was born in Kelantan in the year of 2002. I am currently in my final year at Sunway University, majoring in  <a className = "underline decoration-sky-500/30">Information Technology (Computer Networking and Security).</a>
+                <div className="justify-center">
+                  <div className="inline-block p-2 rounded-full w-70">
+                    <a href="https://drive.google.com/file/d/1GFbDEpIVxzbKQ3M6xlCxya20VVmTU_74/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+                      <div className={styles.btngrad}>
+                        <div className="rounded-full p-2 font-[georgia] text-[0.7rem] font-bold w-70">Resume.pdf
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div className="flex flex-col gap-2">
+                  <div className="text-black font-bold text-[1.5rem] text-left text-sm md:text-base lg:text-lg xl:text-xl p-2">
+                    {/* Content on the left side */}
+                  </div>
+                </div>
               </div>
-              </th>
-              <th className="w-1/3">
-                            <div className="lg:w-1/3 mx-auto text-center align-center lg:pl-2  flex flex-col items-center justify-center">
-                {/* Skill Section */}
-                <div className="inline-block bg-beb3e5 rounded-full font-[Georgia] text-[1.5rem] font-bold pb-3">
-                  Skill
-                </div>
+
+              {/* Right side */}
+              <div className="lg:w-1/3 mx-auto text-center align-center lg:pl-10 pt-2 flex flex-col items-center justify-center">
+                <div className="inline-block bg-beb3e5 rounded-full  font-[Georgia] text-[1.5rem] font-bold  ">Skill</div>
                 <div className="text-black p-2 text-left text-sm md:text-base lg:text-lg xl:text-xl">
                   Oses
                 </div>
-                <div className="relative w-full md:w-48 lg:w-56 h-4 bg-gray-300 rounded-full overflow-hidden">
-                  <div className="h-full bg-[#3A6AF2]" style={{ width: '80%' }}></div>
-                  <span className="absolute inset-0 flex items-center text-[1rem] justify-center text-white font-bold">
+                <div className="relative w-full md:w-48 h-4 bg-gray-300 rounded-full overflow-hidden">
+                  <div
+                    className="h-full bg-[#3A6AF2]"
+                    style={{ width: '80%' }} // Set your desired percentage
+                  ></div>
+                  <span className="absolute inset-0 flex items-center justify-center text-white font-bold">
                     80%
                   </span>
                 </div>
 
                 {/* Repeat the following blocks for other sections */}
-                {/* Java Section */}
+                {/* Example Section */}
                 <div className="text-black p-2 text-left text-sm md:text-base lg:text-lg xl:text-xl">
                   Java
                 </div>
-                <div className="relative w-full md:w-48 lg:w-56 h-4 bg-gray-300 rounded-full overflow-hidden">
-                  <div className="h-full bg-[#F27999]" style={{ width: '40%' }}></div>
-                  <span className="absolute inset-0 flex items-center text-[1rem] justify-center text-white font-bold">
+                <div className="relative w-full md:w-48 h-4 bg-gray-300 rounded-full overflow-hidden">
+                  <div
+                    className="h-full bg-[#F27999]"
+                    style={{ width: '40%' }} // Set your desired percentage
+                  ></div>
+                  <span className="absolute inset-0 flex items-center justify-center text-white font-bold">
                     40%
                   </span>
                 </div>
 
-                {/* Python Section */}
                 <div className="text-black p-2 text-left text-sm md:text-base lg:text-lg xl:text-xl">
                   Python
                 </div>
-                <div className="relative w-full md:w-48 lg:w-56 h-4 bg-gray-300 rounded-full overflow-hidden">
-                  <div className="h-full bg-[#30D9A9]" style={{ width: '30%' }}></div>
-                  <span className="absolute inset-0 flex items-center text-[1rem] justify-center text-white font-bold">
+                <div className="relative w-full md:w-48 h-4 bg-gray-300 rounded-full overflow-hidden">
+                  <div
+                    className="h-full bg-[#30D9A9]"
+                    style={{ width: '30%' }} // Set your desired percentage
+                  ></div>
+                  <span className="absolute inset-0 flex items-center justify-center text-white font-bold">
                     30%
                   </span>
                 </div>
 
-                {/* Traffic Analysis Section */}
                 <div className="text-black p-2 text-left text-sm md:text-base lg:text-lg xl:text-xl">
                   Traffic Analysis
                 </div>
-                <div className="relative w-full md:w-48 lg:w-56 h-4 bg-gray-300 rounded-full overflow-hidden">
-                  <div className="h-full bg-[#FFBE25]" style={{ width: '60%' }}></div>
-                  <span className="absolute inset-0 flex items-center text-[1rem] justify-center text-white font-bold">
+                <div className="relative w-full md:w-48 h-4 bg-gray-300 rounded-full overflow-hidden">
+                  <div
+                    className="h-full bg-[#FFBE25]"
+                    style={{ width: '60%' }} // Set your desired percentage
+                  ></div>
+                  <span className="absolute inset-0 flex items-center justify-center text-white font-bold">
                     60%
                   </span>
                 </div>
+
+                {/* Add more sections as needed */}
               </div>
-
-              </th>
-            </tr>
-          </thead>
-        </table>
-      
-    </div>
-
-      
+            </div>
+          </div>
+        </div>
+      </div>
 
       <div>
-        <div className="p-4 mt-4 font-[Georgia] text-[2.5rem] font-bold lg:pl-24 ">Project</div>
+        <div className="inline-block bg-beb3e5 rounded-full p-4 mt-4 font-[Georgia] text-[2.5rem] font-bold lg:pl-24">Project</div>
         <div className="grid place-items-center">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 border-2 border-black">
 
             <div className={styles.flipcard}>
               <div className={styles.flipcardinner}>
-                <div className={`${styles.flipcardfront} items-center justify-center `}>
-                  <div className="rounded-lg w-80 sm:w-48 md:w-56 lg:w-64 xl:w-64 h-80 sm:h-48 md:h-80 lg:h-64 xl:h-64 bg-[#3A6AF2] 
-          flex flex-col items-center justify-center text-white p-2 transition-transform transform-gpu hover:scale-105 shadow-lg">
+              <div className={`${styles.flipcardfront} border-2 border-black`}>                  <div className="rounded-lg w-80 sm:w-48 md:w-56 lg:w-64 xl:w-64 h-80 sm:h-48 md:h-80 lg:h-64 xl:h-64 bg-[#3A6AF2] 
+          flex flex-col items-center justify-center text-white p-2 transition-transform transform-gpu hover:scale-105 shadow-lg border-2 border-red-500">
                     <div className="m-1">
-                      <Image src="/teamwork.png" alt="email" width="50" height="30"/>
+                      <Image src="/teamwork.png" alt="email" width="50" height="30" />
                     </div>
-                    <div className="inline-block rounded-full  text-center font-[Georgia] text-[1.2rem] font-bold p-2">Object Oriented Programming
+                    <div className="inline-block bg-beb3e5 rounded-full  text-center font-[Georgia] text-[1.2rem] font-bold p-2">Object Oriented Programming
                     </div>
-                    <div className="inline-block rounded-full  text-center font-[Georgia] text-[1rem]  ">
+                    <div className="inline-block bg-beb3e5 rounded-full  text-center font-[Georgia] text-[1rem]  ">
                       Mastermind Board Game
                     </div>
                   </div>
                 </div>
-                <div className={`${styles.flipcardback}  items-center justify-center `}>
-                  <div className="rounded-lg w-80 sm:w-48 md:w-56 lg:w-64 xl:w-64 h-80 sm:h-48 md:h-80 lg:h-64 xl:h-64 bg-[#3A6AF2] 
-                  flex flex-col items-center justify-center text-white p-2 transition-transform transform-gpu hover:scale-105 shadow-lg relative">
+                <div className={styles.flipcardback}>
+                  <div className="rounded-lg w-80 sm:w-48 md:w-56 lg:w-64 xl:w-64 h-80 sm:h-48 md:h-80 lg:h-64 xl:h-64 bg-[#3A6AF2] flex flex-col items-center justify-center text-white p-2 transition-transform transform-gpu hover:scale-105 shadow-lg relative">
                     <iframe
                       src="https://www.youtube.com/embed/gXgDaSb3jJA?si=VJNBdrZuv-Ikgzae"
                       title="YouTube video player"
@@ -810,9 +830,8 @@ const Home: React.FC = () => {
 
             <div className={styles.flipcard}>
               <div className={styles.flipcardinner}>
-                 <div className={`${styles.flipcardfront} items-center justify-center `}>
-                  <div className="rounded-lg w-80 sm:w-48 md:w-56 lg:w-64 xl:w-64 h-80 sm:h-48 md:h-80 lg:h-64 xl:h-64 bg-[#F2AB27] 
-                  flex flex-col items-center justify-center text-white p-2 transition-transform transform-gpu hover:scale-105 shadow-lg">
+                <div className={styles.flipcardfront}>
+                  <div className="rounded-lg w-80 sm:w-48 md:w-56 lg:w-64 xl:w-64 h-80 sm:h-48 md:h-80 lg:h-64 xl:h-64 bg-[#F2AB27] flex flex-col items-center justify-center text-white p-2 transition-transform transform-gpu hover:scale-105 shadow-lg">
                     <div className="m-1">
                       <Image src="/teamwork.png" alt="email" width="50" height="30" />
                     </div>
@@ -823,7 +842,7 @@ const Home: React.FC = () => {
                     </div>
                   </div>
                 </div>
-               <div className={`${styles.flipcardback}  items-center justify-center `}>
+                <div className={styles.flipcardback}>
                   <div className="rounded-lg w-80 sm:w-48 md:w-56 lg:w-64 xl:w-64 h-80 sm:h-48 md:h-80 lg:h-64 xl:h-64 bg-[#3A6AF2] flex flex-col items-center justify-center text-white p-2 transition-transform transform-gpu hover:scale-105 shadow-lg relative">
                     <iframe
                       src="https://www.youtube.com/embed/a4wam3TTjv0?si=tRMRb16iSa46hlhi"
@@ -840,7 +859,7 @@ const Home: React.FC = () => {
 
             <div className={styles.flipcard}>
               <div className={styles.flipcardinner}>
-                 <div className={`${styles.flipcardfront}  items-center justify-center `}>
+                <div className={styles.flipcardfront}>
                   <div className="rounded-lg w-80 sm:w-48 md:w-56 lg:w-64 xl:w-64 h-80 sm:h-48 md:h-80 lg:h-64 xl:h-64 bg-[#FC7596] flex flex-col items-center justify-center text-white p-2 transition-transform transform-gpu hover:scale-105 shadow-lg">
                     <div className="m-1">
                       <Image src="/teamwork.png" alt="email" width="50" height="30" />
@@ -852,10 +871,10 @@ const Home: React.FC = () => {
                     </div>
                   </div>
                 </div>
-               <div className={`${styles.flipcardback} items-center justify-center`}>
+                <div className={styles.flipcardback}>
                   <div className="rounded-lg w-80 sm:w-48 md:w-56 lg:w-64 xl:w-64 h-80 sm:h-48 md:h-80 lg:h-64 xl:h-64 bg-[#3A6AF2] flex flex-col items-center justify-center text-white p-2 transition-transform transform-gpu hover:scale-105 shadow-lg relative">
                     <iframe
-                      src="https://www.youtube.com/embed/PiyO3hf3IXg?si=jAvB_4ynQJc5xxQ5"
+                      src="https://www.youtube.com/embed/gXgDaSb3jJA?si=VJNBdrZuv-Ikgzae"
                       title="YouTube video player"
 
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -882,10 +901,10 @@ const Home: React.FC = () => {
 
 
       <div className="flex justify-center items-center">
-        <div className="flex-1 text-center sm:text-justify lg:text-left -mt-2 lg:pl-20 lg:pr-8  font-[georgia] text-1.5rem text-black justify-center items-center mx-auto">
+        <div className="flex-1 text-center sm:text-justify lg:text-left -mt-2 sm:p-4 lg:p-2 lg:pl-20 lg:pr-8 pt-3 sm:pt-4 lg:pt-4 font-[georgia] text-1.5rem text-black justify-center items-center mx-auto">
           <div id="achievment" className="box-border bg-cover bg-center bg-no-repeat w-full">
             <div className="overflow-hidden flex border-radius-40">
-              <div className="font-['Georgia'] flex-1 text-center sm:text-justify lg:text-left lg:pl-8 lg:pr-8 ] text-1rem text-black">
+              <div className="font-['Georgia'] flex-1 text-center sm:text-justify lg:text-left  sm:p-4 lg:p-4 lg:pl-8 lg:pr-8 pt-3 sm:pt-4 lg:pt-4 ] text-1rem text-black">
                 <h1 className=" text-[2.5rem] font-bold">Extra-Cocuriculum</h1>
               </div>
             </div>

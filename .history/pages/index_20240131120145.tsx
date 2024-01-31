@@ -855,7 +855,7 @@ const Home: React.FC = () => {
                <div className={`${styles.flipcardback} items-center justify-center`}>
                   <div className="rounded-lg w-80 sm:w-48 md:w-56 lg:w-64 xl:w-64 h-80 sm:h-48 md:h-80 lg:h-64 xl:h-64 bg-[#3A6AF2] flex flex-col items-center justify-center text-white p-2 transition-transform transform-gpu hover:scale-105 shadow-lg relative">
                     <iframe
-                      src="https://www.youtube.com/embed/PiyO3hf3IXg?si=jAvB_4ynQJc5xxQ5"
+                      src="https://www.youtube.com/embed/gXgDaSb3jJA?si=VJNBdrZuv-Ikgzae"
                       title="YouTube video player"
 
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

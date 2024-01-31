@@ -827,22 +827,13 @@
   align-items: center;
   background-color: transparent;
   width: 380px;
-  height: 300px;
+  height: 380px;
   perspective: 1000px;
   padding-left: 8%;
 }
 
-@media screen and (max-width: 767px) {
-  /* Change the height to 380px on smaller screens */
-  .flipcard {
-    height: 380px;
-  }
-}
-
-
 .flipcardinner {
 
-  transition: transform 1.5s;
   transform-style: preserve-3d;
   
 }
@@ -852,7 +843,7 @@
 }
 
 .flipcard:hover .flipcardinner {
-  box-shadow: none; /* Remove the shadow only on hover */
+  box-shadow:#776B5D; /* Remove the shadow only on hover */
 }
 
 .flipcardfront,
